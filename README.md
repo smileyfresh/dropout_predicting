@@ -1,4 +1,5 @@
 # Sealing the Cracks
+### Using Machine Learning Techniques To Predict High School Dropouts 
 
 ## Overview
 
