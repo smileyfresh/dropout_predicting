@@ -89,4 +89,54 @@ As I was working with both continuous and categorical features, I chose to use a
 
 Seeing that GPA, attendance(percent days absent), and standardized testing scores contributed most signifcantly to information gain, I narrowed my feature matrix to these four features. I then split my data into a training set and a validation set, and used a random grid search with cross validation to tune the hyperparameters for a new random forest model. I used this model as my baseline, and the confusion matrix and ROC curve for this model are printed below:
 
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/confusion-matrix-random-forest-removed-features.png" width="400">
+    <img src="
+https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Screen%20Shot%202021-01-14%20at%203.27.24%20PM.png" width="400">
+</p>
+
+This model had an accuracy score of 85%. However, as I further evaluated my model, I realized I was most concerned with recall -- students who would continue on to dropout without having been pointed out by the model. I wanted to capture as many true dropouts as possible, so that we can introduce interventions for these students. 
+
+In this model, 1700 of the dropouts fell threw the cracks, and the model achieved an overall recall of 43%. 
+
+In order to capture more dropouts, I decided to lower the predicted probablity threshold to 25%. The confusion matrix for this model is shown below:
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/confusion-matrix-threshold.png" width="400">
+</p>
+
+This reduced accuracy to 82%, but increased the recall of the model to 65%.
+
+## Predicting at the 11th Grade Level
+
+I then decided to retrain the model by introducing the 11th Grade standardized testing scores. The test scores in the 11th grade year had greater importance than those in the 9th grade:
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Screen%20Shot%202021-01-11%20at%2011.06.52%20AM.png" width="400">
+</p>
+
+The cunfusion matrix for this new model was as follows:
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/confusion-matrix-rf-junior-year.png" width="400">
+</p>
+
+This model had an accuracy score of 91%, and a recall score of 74%.
+
+I then once again adjusted the predicted probability threshold to 25% and received the following final results:
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/jun-year-confusion-matrix-threshold.png" width="400">
+</p>
+
+This final model had an accuracy of 90% with 82% Recall.
+
+
+### Conclusion
+
+In conclusion, the data shows that there are key features -- GPA, Attendance, and Standardized Testing Scores-- that may help educators predict likely dropouts and introduce intervention measures to assist such students. In a future iteration of this project, I would likt to examine additional features that might contribute to student success, such as location(rural vs. urban vs. suburban), types of schooling(public vs. private vs. charter), and also look at data at the national level. 
+
+
+
+
 
