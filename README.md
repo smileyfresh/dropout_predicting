@@ -62,6 +62,14 @@ In the eleventh grade, the distributions of standardized testing scores(ACT scor
     <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read11Scores.png" width="400">
 </p>
 
+### Attendance
+
+I also explored attendance as a possible feature to indicate whether a student is likely to drop out or not. Below, percent days absent serves as an indicator for attendance. The distribution of percent days absent across both types of students differed, with students who eventually dropped out missing more days of school on average. 
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Percentage%20of%20Days%20Absent%20Across%20Dropouts%20and%20Grads.png" width="400">
+</p>
+
 ### Program Enrollment
 
 Below is a bar chart that visualizes participation in a specialized program across both dropouts and grads. It is of note that of students who dropped out nearly 70% were enrolled in the Federal Free or Reducaed Price Lunch program, and 45% were enrolled in an alternative program.
@@ -71,3 +79,6 @@ Below is a bar chart that visualizes participation in a specialized program acro
 </p>
 
 
+## Building the Model
+
+As I was working with both continuous and categorical features, I chose to use a random forest to build my model. In my first iteration, I included 
