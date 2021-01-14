@@ -41,4 +41,4 @@ The GPAs for students who dropped out tended to be lower than those of students 
 
 Standardized testing scores were also lower for students who dropped out as seen in the histograms below for both the 8th grade and 11th grade level.
 
-![] (https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math8Scores.png) [](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read8Scores.png)
+![] (https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math8Scores.png) ![](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read8Scores.png)
