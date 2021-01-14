@@ -95,7 +95,7 @@ Seeing that GPA, attendance(percent days absent), and standardized testing score
 
 This model had an accuracy score of 85%. However, as I further evaluated my model, I realized I was most concerned with recall -- students who would continue on to dropout without having been pointed out by the model. I wanted to capture as many true dropouts as possible, so that we can introduce interventions for these students. 
 
-In this model, 1700 of the dropouts fell threw the cracks, and the model achieved an overall recall of 43%. 
+In this model, 1700 of the dropouts fell through the cracks, and the model achieved an overall recall of 43%. 
 
 In order to capture more dropouts, I decided to lower the predicted probablity threshold to 25%. The confusion matrix for this model is shown below:
 
@@ -127,7 +127,7 @@ I then once again adjusted the predicted probability threshold to 25% and receiv
     <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/jun-year-confusion-matrix-threshold.png" width="400">
 </p>
 
-This final model had an accuracy of 90% with 82% Recall.
+This final model had an accuracy of 90% with 82% Recall. With this model I was able to correctly predict an additional 1150 students who would have otherwise dropped out.
 
 
 ### Conclusion
