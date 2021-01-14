@@ -43,6 +43,8 @@ As seen in the histogram below, the distributions of GPA across those students w
 
 The GPAs for students who dropped out tended to be lower than those of students who went on to graduate. The average GPA of students who dropped out was 1.6, while the average for those who went on to graduate was 2.7.
 
+### Standardized Testing Scores
+
 Standardized testing scores were also lower for students who dropped out as seen in the histograms below for both the 8th grade and 11th grade level.
 
 
@@ -55,6 +57,17 @@ The mean scores for the rising 9th grade (8th grade exam) were 30.5 and 40.8 (on
 
 In the eleventh grade, the distributions of standardized testing scores(ACT scores) did still tend to be lower for dropouts than grads, with the mean scores of 17.1 and 17.5(on an 36 point scale) for students who did not complete, and 19.1 and 19.9 for students who graduated. However, the most suprising indicator here was not the scores of the test, but whether or not the student chose to sit for the exam, with 33% of dropouts choosing not to take the ACT, compared with 12% of those who graduated.
 
-<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math11Scores.png" width="100" height="100">
-<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read11Scores.png" width="100" height="100">
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math11Scores.png" width="400">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read11Scores.png" width="400">
+</p>
+
+### Program Enrollment
+
+Below is a bar chart that visualizes participation in a specialized program across both dropouts and grads. It is of note that of students who dropped out nearly 70% were enrolled in the Federal Free or Reducaed Price Lunch program, and 45% were enrolled in an alternative program.
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Dropouts%20by%20Education%20Program.png" width="500">
+</p>
+
 
