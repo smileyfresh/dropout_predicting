@@ -81,4 +81,8 @@ Below is a bar chart that visualizes participation in a specialized program acro
 
 ## Building the Model
 
-As I was working with both continuous and categorical features, I chose to use a random forest to build my model. In my first iteration, I included 
+As I was working with both continuous and categorical features, I chose to use a random forest to build my model. In my first iteration, I included all all the features explored above, as well as two demographic features (race and gender) in my feature matrix. From this first model, I was able to get an idea of the feature importance:
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Screen%20Shot%202021-01-11%20at%208.38.59%20AM.png" width="400">
+</p>
