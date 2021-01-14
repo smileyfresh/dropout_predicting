@@ -16,8 +16,9 @@ After initial exploratory data analysis, I will determine the most relevant feat
 
 I first examined my targets -- Dropout vs Graduating Students --  and discovered that students who dropped out accounted for about 19% of the data.
 
-
-<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/DropoutRate.png" width="200">
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/DropoutRate.png" width="500">
+</p>    
 
 I then examined the distributions of the following features across both students who dropped out and those who graduated:
 
@@ -36,14 +37,19 @@ I then examined the distributions of the following features across both students
 
 As seen in the histogram below, the distributions of GPA across those students who dropped out and those who did not differ. 
 
-![](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/GPA%20across%20Dropouts%20and%20Grads.png)
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/GPA%20across%20Dropouts%20and%20Grads.png" width="500">
+</p>
 
 The GPAs for students who dropped out tended to be lower than those of students who went on to graduate. The average GPA of students who dropped out was 1.6, while the average for those who went on to graduate was 2.7.
 
 Standardized testing scores were also lower for students who dropped out as seen in the histograms below for both the 8th grade and 11th grade level.
 
-<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math8Scores.png" width="100" height="100">
-<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read8Scores.png" width="100" height="100">
+
+<p align="center">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math8Scores.png" width="400">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read8Scores.png" width="400">
+</p>
 
 The mean scores for the rising 9th grade (8th grade exam) were 30.5 and 40.8 (on a 100 point scale) for math and reading for students who did not complete high school. The mean scores for students who graduated were 43.3 and 48.6 for math and reading, respectively. 
 
