@@ -16,7 +16,8 @@ After initial exploratory data analysis, I will determine the most relevant feat
 
 I first examined my targets -- Dropout vs Graduating Students --  and discovered that students who dropped out accounted for about 19% of the data.
 
-![](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/DropoutRate.png)
+
+<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/DropoutRate.png" width="200">
 
 I then examined the distributions of the following features across both students who dropped out and those who graduated:
 
@@ -41,13 +42,13 @@ The GPAs for students who dropped out tended to be lower than those of students 
 
 Standardized testing scores were also lower for students who dropped out as seen in the histograms below for both the 8th grade and 11th grade level.
 
-![] (https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math8Scores.png) 
-![](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read8Scores.png)
+<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math8Scores.png" width="100" height="100">
+<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read8Scores.png" width="100" height="100">
 
 The mean scores for the rising 9th grade (8th grade exam) were 30.5 and 40.8 (on a 100 point scale) for math and reading for students who did not complete high school. The mean scores for students who graduated were 43.3 and 48.6 for math and reading, respectively. 
 
 In the eleventh grade, the distributions of standardized testing scores(ACT scores) did still tend to be lower for dropouts than grads, with the mean scores of 17.1 and 17.5(on an 36 point scale) for students who did not complete, and 19.1 and 19.9 for students who graduated. However, the most suprising indicator here was not the scores of the test, but whether or not the student chose to sit for the exam, with 33% of dropouts choosing not to take the ACT, compared with 12% of those who graduated.
 
-![](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math11Scores.png)
-![](https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read11Scores.png)
+<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Math11Scores.png" width="100" height="100">
+<img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Read11Scores.png" width="100" height="100">
 
