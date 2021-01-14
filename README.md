@@ -90,9 +90,7 @@ As I was working with both continuous and categorical features, I chose to use a
 Seeing that GPA, attendance(percent days absent), and standardized testing scores contributed most signifcantly to information gain, I narrowed my feature matrix to these four features. I then split my data into a training set and a validation set, and used a random grid search with cross validation to tune the hyperparameters for a new random forest model. I used this model as my baseline, and the confusion matrix and ROC curve for this model are printed below:
 
 <p align="center">
-    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/confusion-matrix-random-forest-removed-features.png" width="400">
-    <img src="
-https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Screen%20Shot%202021-01-14%20at%203.27.24%20PM.png" width="400">
+    <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/confusion-matrix-random-forest-removed-features.png" width="400"> <img src="https://github.com/smileyfresh/dropout_predicting/blob/main/data/images/Screen%20Shot%202021-01-14%20at%203.27.24%20PM.png" width="400">
 </p>
 
 This model had an accuracy score of 85%. However, as I further evaluated my model, I realized I was most concerned with recall -- students who would continue on to dropout without having been pointed out by the model. I wanted to capture as many true dropouts as possible, so that we can introduce interventions for these students. 
