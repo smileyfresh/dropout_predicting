@@ -2,7 +2,7 @@
 
 ### Overview
 
-This project uses machine learning techniques to build a model that will predict whether a student is likely to dropout at the high school level. I want to explore ways to predict early whether a student will struggle at the high school level, and by determining the features that contribute to those struggles better address them so that students can have more positive educational experiences and have more fulfilling lives. <img style="float: right;" src="https://drive.google.com/file/d/1LoqwiY4U-_rc-ZzDGK-671Mx77Cc5MPv/view">
+This project uses machine learning techniques to build a model that will predict whether a student is likely to dropout at the high school level. I want to explore ways to predict early whether a student will struggle at the high school level, and by determining the features that contribute to those struggles better address them so that students can have more positive educational experiences and have more fulfilling lives. <img style="float: right;" src="https://ibb.co/Tkys4Jz">
 
 ### Data Source
 
